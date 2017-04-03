@@ -1,0 +1,255 @@
+def xentries(i, j):
+
+    r=randrange(0, 255)
+   # floor(random()*0xFFF)
+    return r;
+n = 4
+k = 4
+B= matrix(ZZ, n, k, lambda i, j: xentries(i, j))
+sage:html.table(B)
+
+
+
+sage: print 'MINOR TE RENDIT 4 :', B.minors(4)
+sage: print ''
+sage: print 'MINOR TE RENDIT 3 :', B.minors(3)
+sage: print ''
+sage: print 'MINOR TE RENDIT 2 :', B.minors(2)
+sage: print ''
+sage: print 'MINOR TE RENDIT 1 :', B.minors(1)
+sage: print ''
+
+sage: print 'MATRICA MUND TE JETE MDS'
+sage: print ''
+sage: print 'RRESHTI I PARE I MATRICS'
+sage: print '-------------------------'
+sage: print ''
+
+sage: print 'ELEMENTI pare - ',B[0][0];
+sage: print 'ELEMENTI dyt - ',B[0][1];
+sage: print 'ELEMENTI tret - ',B[0][2];
+sage: print 'ELEMENTI katert - ',B[0][3];
+sage: print ''
+
+sage: print 'RRESHTI I DYTE I MATRICS'
+sage: print '-------------------------'
+sage: print ''
+
+sage: print 'ELEMENTI pest - ',B[1][0];
+sage: print 'ELEMENTI gjasht - ',B[1][1];
+sage: print 'ELEMENTI shtat - ',B[1][2];
+sage: print 'ELEMENTI tet - ',B[1][3];
+sage: print ''
+
+sage: print 'RRESHTI I TRET I MATRICS'
+sage: print '---------------------------'
+sage: print ''
+
+sage: print 'ELEMENTI nent - ',B[2][0];
+sage: print 'ELEMENTI dhjet - ',B[2][1];
+sage: print 'ELEMENTI njembedhjet - ',B[2][2];
+sage: print 'ELEMENTI dymbedhjet - ',B[2][3];
+sage: print ''
+
+sage: print 'RRESHTI I KATERT I MATRICS'
+sage: print '------------------------------'
+sage: print ''
+
+sage: print 'ELEMENTI trmbedhjet - ',B[3][0];
+sage: print 'ELEMENTI katermbedhjet - ',B[3][1];
+sage: print 'ELEMENTI permbedhjet - ',B[3][2];
+sage: print 'ELEMENTI gjashtmbedhjet - ',B[3][3];
+sage: print '---------------------------------'
+sage: print ''
+
+
+
+sage: print 'MATRICA'
+sage:html.table(B)
+
+
+sage: print 'ELEMENTET E NDARA'
+
+sage:A=divmod(B[0][0], 10);
+sage:A1=A[0];A2=A[1]; A1,A2
+
+
+sage:A=divmod(B[0][1], 10);
+sage:A3=A[0];A4=A[1]; A3,A4
+
+
+sage:A=divmod(B[0][2], 10);
+sage:A5=A[0];A6=A[1]; A5,A6
+
+
+sage:A=divmod(B[0][3], 10);
+sage:A7=A[0];A8=A[1]; A7,A8
+
+
+sage:A=divmod(B[1][0], 10);
+sage:A9=A[0];A10=A[1]; A9,A10
+
+
+sage:A=divmod(B[1][1], 10);
+sage:A11=A[0];A12=A[1]; A11,A12
+
+
+sage:A=divmod(B[1][2], 10);
+sage:A13=A[0];A14=A[1]; A13,A14
+
+
+sage:A=divmod(B[1][3], 10);
+sage:A15=A[0];A16=A[1]; A15,A16
+
+
+sage:A=divmod(B[2][0], 10);
+sage:A17=A[0];A18=A[1]; A17,A18
+
+
+sage:A=divmod(B[2][1], 10);
+sage:A19=A[0];A20=A[1]; A19,A20
+
+
+sage:A=divmod(B[2][2], 10);
+sage:A21=A[0];A22=A[1]; A21,A22
+
+
+sage:A=divmod(B[2][3], 10);
+sage:A23=A[0];A24=A[1]; A23,A24
+
+
+sage:A=divmod(B[3][0], 10);
+sage:A25=A[0];A26=A[1]; A25,A26
+
+
+sage:A=divmod(B[3][1], 10);
+sage:A27=A[0];A28=A[1]; A27,A28
+
+
+sage:A=divmod(B[3][2], 10);
+sage:A29=A[0];A30=A[1]; A29,A30
+
+
+sage:A=divmod(B[3][3], 10);
+sage:A31=A[0];A32=A[1]; A31,A32
+
+
+#ELEMENTET E MATRICS PO KONVERTOHEN NE FORMEN BINARE DUKE SHFRYTEZUR FUNKSININ E SAGELATH binry()
+sage:print ''
+sage:print ''
+sage:print 'ELEMENTET E KONVERTUARA NE FORMEN BINARE'
+sage: A1,A1.binary()
+sage: A2,A2.binary()
+sage: A3,A3.binary()
+sage: A4,A4.binary()
+sage: A5,A5.binary()
+sage: A6,A6.binary()
+sage: A7,A7.binary()
+sage: A8,A8.binary()
+sage: A9,A9.binary()
+sage: A10,A10.binary()
+sage: A11,A11.binary()
+sage: A12,A12.binary()
+sage: A13,A13.binary()
+sage: A14,A14.binary()
+sage: A15,A15.binary()
+sage: A16,A16.binary()
+sage: A17,A17.binary()
+sage: A18,A18.binary()
+sage: A19,A19.binary()
+sage: A20,A20.binary()
+sage: A21,A21.binary()
+sage: A22,A22.binary()
+sage: A23,A23.binary()
+sage: A24,A24.binary()
+sage: A25,A25.binary()
+sage: A26,A26.binary()
+sage: A27,A27.binary()
+sage: A28,A28.binary()
+sage: A29,A29.binary()
+sage: A30,A30.binary()
+sage: A31,A31.binary()
+sage: A32,A32.binary()
+
+
+
+
+sage:print ''
+sage:print 'BASHKIMI I TRAJTES BINARE TE ELEMENTEVE TE NDARA'
+sage:print ''
+sage:html.table(B)
+sage:print ''
+sage:B[0][0],A1.binary()+A2.binary()
+sage:B[0][1],A3.binary()+A4.binary()
+sage:B[0][2],A5.binary()+A6.binary()
+sage:B[0][3],A7.binary()+A8.binary()
+sage:B[1][0],A9.binary()+A10.binary()
+sage:B[1][1],A11.binary()+A12.binary()
+sage:B[1][2],A13.binary()+A14.binary()
+sage:B[1][3],A15.binary()+A16.binary()
+sage:B[2][0],A17.binary()+A18.binary()
+sage:B[2][1],A19.binary()+A20.binary()
+sage:B[2][2],A21.binary()+A22.binary()
+sage:B[2][3],A23.binary()+A24.binary()
+sage:B[3][0],A25.binary()+A26.binary()
+sage:B[3][1],A27.binary()+A28.binary()
+sage:B[3][2],A29.binary()+A30.binary()
+sage:B[3][3],A31.binary()+A32.binary()
+sage:print ''
+
+
+sage: E0 = B[0][0].bits()
+sage: E1 = B[0][1].bits()
+sage: E2 = B[0][2].bits()
+sage: E3 = B[0][3].bits()
+
+sage: E4 = B[1][0].bits()
+sage: E5 = B[1][1].bits()
+sage: E6 = B[1][2].bits()
+sage: E7 = B[1][3].bits()
+
+sage: E8 = B[2][0].bits()
+sage: E9 = B[2][1].bits()
+sage: E10 = B[2][2].bits()
+sage: E11 = B[2][3].bits()
+
+sage: E12 = B[3][0].bits()
+sage: E13 = B[3][1].bits()
+sage: E14 = B[3][2].bits()
+sage: E15 = B[3][3].bits()
+
+
+
+
+sage:S1=A1.bits();
+sage:S2=A2.bits();
+sage:S3=A3.bits();
+sage:S4=A4.bits();
+sage:S5=A5.bits();
+sage:S6=A6.bits();
+sage:S7=A7.bits();
+sage:S8=A8.bits();
+sage:S9=A9.bits();
+sage:S10=A10.bits();
+sage:S11=A11.bits();
+sage:S12=A12.bits();
+sage:S13=A13.bits();
+sage:S14=A14.bits();
+sage:S15=A15.bits();
+sage:S16=A16.bits();
+sage:S17=A17.bits();
+sage:S18=A18.bits();
+sage:S19=A19.bits();
+sage:S20=A20.bits();
+sage:S21=A21.bits();
+sage:S22=A22.bits();
+sage:S23=A23.bits();
+sage:S24=A24.bits();
+sage:S25=A25.bits();
+sage:S26=A26.bits();
+sage:S27=A27.bits();
+sage:S28=A28.bits();
+sage:S29=A29.bits();
+sage:S30=A30.bits();
+sage:S31=A31.bits();
+sage:S32=A32.bits();
